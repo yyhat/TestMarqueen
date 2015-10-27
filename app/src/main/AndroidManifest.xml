@@ -16,6 +16,8 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".ActivityMarqueen"/>
+        <activity android:name=".ActivityEditText"/>
     </application>
 
 </manifest>
