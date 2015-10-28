@@ -1,14 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<EditText
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/edit_text1"/>
-    <Button
+    android:layout_height="match_parent">
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="添加QQ表情"
-        android:id="@+id/add_express_btn"/>
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_text_imagespan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/add_express_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加QQ表情"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="字体颜色设置(ForgroundColorSpan)" />
+
+        <EditText
+            android:id="@+id/edit_text_fcspan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="欢迎光临Harvic的博客" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="字体背景颜色设置(BackgroundColorSpan)" />
+
+        <EditText
+            android:id="@+id/edit_text_bcspan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="欢迎光临Harvic的博客" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="字体大小(AbsoluteSizeSpan)" />
+
+        <EditText
+            android:id="@+id/edit_text_sizespan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="欢迎光临Harvic的博客" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="粗体. 斜体设置(StyleSpan)" />
+
+        <EditText
+            android:id="@+id/edit_text_stylespan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="欢迎光临Harvic的博客" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="删除线设置(StyleSpan)" />
+
+        <EditText
+            android:id="@+id/edit_text_strikespan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="欢迎光临Harvic的博客" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="下划线设置(StyleSpan)" />
+
+        <EditText
+            android:id="@+id/edit_text_underlinespan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="欢迎光临Harvic的博客" />
+    </LinearLayout>
+
+</ScrollView>
