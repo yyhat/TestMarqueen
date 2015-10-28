@@ -20,12 +20,18 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     private String[] activityDesList = new String[]
             {
                 "TextView 跑马灯效果",
-                "EditText 插入表情"
+                "EditText 插入表情",
+                "EditText InputType",
+                "AutoCompleteText",
+                "Button各种状态"
             };
     private Class<?>[] activityList = new Class<?>[]
             {
                 ActivityMarqueen.class,
-                ActivityEditText.class
+                ActivityEditText.class,
+                ActivityInputType.class,
+                ActivityAutoCompleteText.class,
+                ActivityButton.class
             };
 
     @Override

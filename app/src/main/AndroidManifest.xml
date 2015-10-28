@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".ActivityMarqueen"/>
         <activity android:name=".ActivityEditText"/>
+        <activity android:name=".ActivityInputType"/>
+        <activity android:name=".ActivityAutoCompleteText"/>
+        <activity android:name=".ActivityButton"/>
+
     </application>
 
 </manifest>
