@@ -29,5 +29,13 @@ public class ActivityButtonImg extends Activity {
         ImageSpan leftSpan = new ImageSpan(leftBitMap, DynamicDrawableSpan.ALIGN_BOTTOM);
         leftString.setSpan(leftSpan, 0, 4, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
+        SpannableString rightString = new SpannableString("Right");
+        Bitmap rightBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.face6);
+        ImageSpan rightSpan = new ImageSpan(rightBitmap, DynamicDrawableSpan.ALIGN_BOTTOM);
+        rightString.setSpan(rightSpan, 0, 5, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        btnImg.append(leftString);
+        btnImg.append("test");
+        btnImg.append(rightString);
     }
 }

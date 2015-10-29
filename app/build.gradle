@@ -22,4 +22,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
+    compile files('libs/httpclient-4.1.1.jar')
+    compile project(':volley')
 }

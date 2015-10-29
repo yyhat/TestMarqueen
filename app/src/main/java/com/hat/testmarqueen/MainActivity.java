@@ -3,13 +3,10 @@ package com.hat.testmarqueen;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Html;
-import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 /**
  * Created by anting.hu on 2015/10/27.
@@ -23,7 +20,16 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
                 "EditText 插入表情",
                 "EditText InputType",
                 "AutoCompleteText",
-                "Button各种状态"
+                "Button各种状态",
+                "Button中文字和图片混饶",
+                "RadioButton",
+                "ToggleButton",
+                "CheckBox",
+                "SeekBar",
+                    "测试ImageView",
+                    "测试图片选择和剪切",
+                    "测试图片放大和旋转",
+                    "通过网络获取图片,设置ImageView"
             };
     private Class<?>[] activityList = new Class<?>[]
             {
@@ -31,7 +37,16 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
                 ActivityEditText.class,
                 ActivityInputType.class,
                 ActivityAutoCompleteText.class,
-                ActivityButton.class
+                ActivityButton.class,
+                ActivityButtonImg.class,
+                ActivityRadioButton.class,
+                ActivityToggleButton.class,
+                ActivityCheckbox.class,
+                ActivitySeekbar.class,
+                    ActivityImageView.class,
+                    ActivityImageViewCut.class,
+                    ActivityImageViewRotate.class,
+                    ActivityImageViewHttp.class
             };
 
     @Override

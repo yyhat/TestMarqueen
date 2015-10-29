@@ -5,6 +5,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:theme="@style/AppTheme">
 
         <activity
@@ -21,7 +22,17 @@
         <activity android:name=".ActivityInputType"/>
         <activity android:name=".ActivityAutoCompleteText"/>
         <activity android:name=".ActivityButton"/>
+        <activity android:name=".ActivityButtonImg"/>
+        <activity android:name=".ActivityRadioButton"/>
+        <activity android:name=".ActivityToggleButton"/>
+        <activity android:name=".ActivityCheckbox"/>
+        <activity android:name=".ActivitySeekbar"/>
+        <activity android:name=".ActivityImageView" />
+        <activity android:name=".ActivityImageViewCut"/>
+        <activity android:name=".ActivityImageViewRotate"/>
+        <activity android:name=".ActivityImageViewHttp"/>
 
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
