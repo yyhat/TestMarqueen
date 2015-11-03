@@ -24,4 +24,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile files('libs/httpclient-4.1.1.jar')
     compile project(':volley')
+    compile 'org.junit.contrib:junit-theories:5.0-alpha-3'
+    compile 'org.robolectric:robolectric:3.0'
+    compile 'org.mockito:mockito-all:2.0.2-beta'
 }
